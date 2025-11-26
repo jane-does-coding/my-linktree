@@ -72,19 +72,22 @@ export default function Home() {
 					</h1>
 					<Link
 						href={"/"}
-						className="p-[3vh] shadow-xl hover:shadow-2xl transition-all hover:scale-[101%] border-[1px] border-black rounded-[3vh] w-full"
+						className="p-[3vh] shadow-xl hover:shadow-2xl transition-all hover:scale-[101%] border-[1px] border-black rounded-[3vh] w-full relative group"
 					>
+						<p className="bg-blue-200 px-[1vw] py-[0.5vh] rounded-full absolute top-[2vh] right-[0vh] rotate-15 w-fit font-thin border-2 border-black text-black text-[2.25vh] jersey transition-all group-hover:scale-[110%] group-hover:rotate-25 group-hover:shadow-2xl group-hover:top-[1vh] group-hover:right-[-1vw]">
+							{"(Coming Soon)"}
+						</p>
 						<img
-							src="https://placehold.co/600x400"
+							src="sneaky-peak.png"
 							className="w-full rounded-[2.5vh] border-[1px] border-black"
 							alt=""
 						/>
 						<h1 className="jersey text-[5vh] w-full text-center leading-[5vh] mt-[1.5vh] mb-[0.5vh]">
-							Coming Soon
+							Notion Project Planner
 						</h1>
-						<p className="text-center text-[2vh] px-[1vw]">
-							In the future, I'll have products or resources featured here for
-							everyone to access!
+						<p className="text-center text-[2vh] px-[0.5vw]">
+							Notion template to help you plan and organize your programming
+							projects, weather it's your first website, or B2B startup!
 						</p>
 						<p className="underline mt-[1vh] font-semibold mx-auto w-full text-center flex items-center justify-center gap-[0.5vw] text-[1.5vh]">
 							Visit the Resource <FaLink />
